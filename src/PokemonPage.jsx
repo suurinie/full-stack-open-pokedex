@@ -5,6 +5,9 @@ import { useApi } from './useApi'
 import PokemonAbility from './PokemonAbility'
 import ErrorMessage from './ErrorMessage'
 
+
+/* eslint no-console: ["error", { allow: ["warn", "error", "log"] }] */
+
 const formatName = (nameWithDash) => nameWithDash.replace('-', ' ')
 
 const PokemonPage = ({ previous, next }) => {
